@@ -6,7 +6,7 @@ export default function IndexPage() {
   return (
     <div>
       <h1 className={styles.title}>Page index</h1>
-      <Link to = './user'>To User Page</Link>
+      <Link to = './user'>To User Page</Link><br/>
     </div>
   );
 }
