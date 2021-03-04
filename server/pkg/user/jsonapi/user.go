@@ -2,21 +2,20 @@ package user
 
 import (
 	"net/http"
-
-	"github.com/projgithub550/UmiLearning2/server/pkg/user/models"
-	"gorm.io/gorm"
+	//"github.com/projgithub550/umilearning2/server/pkg/user/models"
+	//"gorm.io/gorm"
 )
 
 type UserService struct {
-	db *gorm.DB
+	//db *gorm.DB
 }
 
-func NewUserService(db *gorm.DB) *UserService {
+/*func NewUserService(db *gorm.DB) *UserService {
 	if err := db.AutoMigrate(models.UserModel); err != nil {
 		panic(err)
 	}
 	return &UserService{db: db}
-}
+}*/
 
 //登录服务
 type LoginReq struct {
